@@ -12,6 +12,6 @@ After the provisionning part, we install a CDH cluster in the new infrastructure
 For more information about Cloudera installation steps follow this link: [Cloudera-Install_Doc](https://github.com/MehB/Cloudera-Install_Doc/blob/master/installation_steps.md)
 
 
-[!alt text](images/architecture.png)
+![alt text](images/architecture.png)
 
-[!alt text](images/architecture_ansble.png) 
+![alt text](images/architecture_ansble.png) 
