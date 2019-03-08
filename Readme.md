@@ -14,4 +14,4 @@ For more information about Cloudera installation steps follow this link: [Cloude
 
 ![alt text](images/architecture.png)
 
-![alt text](images/architecture_ansble.png) 
+![alt text](images/architecture_ansible.png) 
