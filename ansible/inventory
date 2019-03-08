@@ -1,0 +1,26 @@
+
+[db_server]
+manager ansible_host= id=6
+
+[cdh_manager]
+manager  ansible_host= id=6
+
+[cdh_master]
+master ansible_host=  id=5
+
+[cdh_worker]
+worker1 ansible_host=  id=2
+worker2 ansible_host=  id=3
+worker3 ansible_host=  id=4
+
+[cdh_servers:children]
+cdh_worker
+cdh_master
+cdh_manager
+
+
+[all:vars]
+ansible_user=cdhtest
+ansible_sudo_pass=password
+ansible_ssh_pass=password
+ansible_ssh_user=cdhtest
